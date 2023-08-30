@@ -1,4 +1,4 @@
-const { Template, template_method} = require('../src/template.js');
+const { Template, template_method} = require('../src/connectfour.js');
 
 describe('Template testing...', () => {
     test('should be a Template class...', () => {

@@ -21,22 +21,18 @@ into a seven-column, six-row vertically suspended grid. The pieces fall straight
 space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line
 of four of one's own tokens
 
-
-
-### Scenario 1
-
-:radio_button: As a
-
-:arrow_right: I want
-
-:arrow_left:  So that
-
-### User acceptance test 1
-
-:heavy_plus_sign: Given
-
-:construction: When
-
-:heavy_exclamation_mark: Then
-
 ### Unit tests
+
+:hammer_and_pick: Boundaries
+
+:heavy_plus_sign: There should be a game with players
+
+:heavy_plus_sign: There should be two players
+
+:heavy_plus_sign: There should be a red and yellow player
+
+:heavy_plus_sign: There should be a rack
+
+:heavy_plus_sign: The rack should have seven columns
+
+:heavy_plus_sign: The rack should have six rows
