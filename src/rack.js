@@ -1,5 +1,5 @@
 class Rack {
-    columns = []
+    columns = new Array(7)
 }
 
 module.exports = {Rack}
