@@ -5,4 +5,9 @@ describe('Connect four testing, there...', () => {
       const game = new ConnectFour();
       expect(game).toBeDefined();
     });
+    test('should be a ConnectFour class with players...', () => {
+        const game = new ConnectFour();
+        const players = game.players;
+        expect(players).toBeDefined();
+    });
   });
