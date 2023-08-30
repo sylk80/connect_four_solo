@@ -1,6 +1,7 @@
 const { Player} = require('../src/player.js');
 class ConnectFour {
     players = []
+    rack = ''
 
     constructor() {
         this.players.push(new Player('YELLOW'))
