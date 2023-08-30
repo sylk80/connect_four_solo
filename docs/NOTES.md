@@ -33,6 +33,6 @@ of four of one's own tokens
 
 :heavy_plus_sign: There should be a rack :heavy_check_mark:
 
-:heavy_plus_sign: The rack should have seven columns
+:heavy_plus_sign: The rack should have seven columns :heavy_check_mark:
 
 :heavy_plus_sign: The rack should have six rows
