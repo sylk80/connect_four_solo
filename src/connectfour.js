@@ -1,4 +1,6 @@
-class ConnectFour {}
+class ConnectFour {
+    players = []
+}
 
 const template_method = () => "Hello world";
 
