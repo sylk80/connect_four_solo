@@ -10,4 +10,9 @@ describe('Connect four testing, there...', () => {
         const players = game.players;
         expect(players).toBeDefined();
     });
+    test('should be two players...', () => {
+        const game = new ConnectFour();
+        const players = game.players;
+        expect(players).toHaveLength(2);
+    });
   });
