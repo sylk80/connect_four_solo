@@ -16,4 +16,8 @@ describe('Connect four testing, there...', () => {
         const red = players[1].color
         expect(red).toEqual('RED');
     });
+    test('should be yellow player...', () => {
+        const yellow = players[0].color
+        expect(yellow).toEqual('YELLOW');
+    });
   });
