@@ -14,6 +14,14 @@
 
 ### Description
 
+Connect Four kata : https://en.wikipedia.org/wiki/Connect_Four
+
+Connect four is a two-player connection rack game, in which the players choose a color and then take turns dropping colored tokens
+into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available
+space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line
+of four of one's own tokens
+
+
 
 ### Scenario 1
 
