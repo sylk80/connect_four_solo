@@ -27,7 +27,7 @@ of four of one's own tokens
 
 :heavy_plus_sign: There should be a game with players  :heavy_check_mark:
 
-:heavy_plus_sign: There should be two players
+:heavy_plus_sign: There should be two players :heavy_check_mark:
 
 :heavy_plus_sign: There should be a red and yellow player
 

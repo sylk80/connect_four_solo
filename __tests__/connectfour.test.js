@@ -12,4 +12,8 @@ describe('Connect four testing, there...', () => {
     test('should be two players...', () => {
         expect(players).toHaveLength(2);
     });
+    test('should be red player...', () => {
+        const red = players[1].color
+        expect(red).toEqual('RED');
+    });
   });
