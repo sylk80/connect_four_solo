@@ -24,5 +24,10 @@ describe('Connect four testing, there...', () => {
         const rack = game.rack;
         expect(rack).toBeDefined();
     });
+    test('should be a rack with columns...', () => {
+        const rack = game.rack;
+        const columns = rack.columns
+        expect(columns).toBeDefined();
+    });
 
   });
