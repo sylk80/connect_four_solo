@@ -1,5 +1,5 @@
 class ConnectFour {
-    players = []
+    players = ['RED','YELLOW']
 }
 
 const template_method = () => "Hello world";
