@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="/home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/__tests__/connectfour.test.js">
-    <testCase name="Connect four testing, there... should be a ConnectFour class..." duration="2"/>
+    <testCase name="Connect four testing, there... should be a ConnectFour class..." duration="1"/>
     <testCase name="Connect four testing, there... should be a ConnectFour class with players..." duration="0"/>
-    <testCase name="Connect four testing, there... should be two players..." duration="0"/>
-    <testCase name="Connect four testing, there... should be red player..." duration="1"/>
+    <testCase name="Connect four testing, there... should be two players..." duration="1"/>
+    <testCase name="Connect four testing, there... should be red player..." duration="0"/>
     <testCase name="Connect four testing, there... should be yellow player..." duration="0"/>
     <testCase name="Connect four testing, there... should be a rack..." duration="0"/>
-    <testCase name="Connect four testing, there... should be a rack with columns..." duration="1"/>
+    <testCase name="Connect four testing, there... should be a rack with columns..." duration="0"/>
+    <testCase name="Connect four testing, there... should be a rack with 7 columns..." duration="1">
+      <failure message="Error: expect(received).toHaveLength(expected)"><![CDATA[Error: expect(received).toHaveLength(expected)
+
+Expected length: 7
+Received length: 0
+Received array:  []
+    at Object.<anonymous> (/home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/__tests__/connectfour.test.js:32:25)
+    at Object.asyncJestTest (/home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)]]></failure>
+    </testCase>
   </file>
 </testExecutions>
