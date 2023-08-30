@@ -8,7 +8,6 @@ class ConnectFour {
         this.players.push(new Player('YELLOW'))
         this.players.push(new Player('RED'))
         this.rack = new Rack();
-        this.rack.columns = [];
     }
 }
 

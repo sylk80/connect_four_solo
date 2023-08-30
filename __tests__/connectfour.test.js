@@ -3,6 +3,7 @@ const { ConnectFour} = require('../src/connectfour.js');
 describe('Connect four testing, there...', () => {
     const game = new ConnectFour();
     const players = game.players;
+    const rack = game.rack;
     test('should be a ConnectFour class...', () => {
       expect(game).toBeDefined();
     });
@@ -21,11 +22,9 @@ describe('Connect four testing, there...', () => {
         expect(yellow).toEqual('YELLOW');
     });
     test('should be a rack...', () => {
-        const rack = game.rack;
         expect(rack).toBeDefined();
     });
     test('should be a rack with columns...', () => {
-        const rack = game.rack;
         const columns = rack.columns
         expect(columns).toBeDefined();
     });
