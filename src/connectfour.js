@@ -1,5 +1,5 @@
-class Connectfour {}
+class ConnectFour {}
 
 const template_method = () => "Hello world";
 
-module.exports = {Template: Connectfour, template_method}
+module.exports = {ConnectFour, template_method}
