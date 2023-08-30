@@ -20,4 +20,9 @@ describe('Connect four testing, there...', () => {
         const yellow = players[0].color
         expect(yellow).toEqual('YELLOW');
     });
+    test('should be a rack...', () => {
+        const rack = game.rack;
+        expect(rack).toBeDefined();
+    });
+
   });
