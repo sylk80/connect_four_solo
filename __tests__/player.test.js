@@ -2,11 +2,15 @@ const { Player} = require('../src/player');
 
 describe('Player testing, there...', () => {
     const player = new Player('RED')
+    const token = player.place();
     test('should be a Player...', () => {
         expect(player).toBeDefined();
     });
-    test('should be a Player...', () => {
+    test('player should place a token...', () => {
         expect(player.place).toBeDefined();
+    });
+    test('token should have same color...', () => {
+        expect(token.color).toBeDefined();
     });
 
 })

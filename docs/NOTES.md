@@ -45,6 +45,8 @@ of four of one's own tokens
 
 :heavy_plus_sign: token should be player colored
 
+:heavy_plus_sign: token should have coordinates
+
 :heavy_plus_sign: token should be placed in rack
 
 :heavy_plus_sign: token should occupy lowest position
