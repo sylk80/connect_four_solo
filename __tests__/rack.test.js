@@ -5,6 +5,7 @@ describe('Rack testing, there...', () => {
     const rack = new Rack()
     const tokenRed = new Token('RED')
     rack.place(tokenRed)
+    const tokens = rack.tokens;
     test('should be a Rack...', () => {
         expect(rack).toBeDefined();
     });
@@ -12,10 +13,14 @@ describe('Rack testing, there...', () => {
         expect(rack.place).toBeDefined();
     });
     test('token object is placed in the rack...', () => {
-        expect(rack.tokens).toBeDefined();
+        expect(tokens).toBeDefined();
     });
     test('token object should be found in the rack...', () => {
-        const tokens = rack.tokens;
         expect(tokens[0]).toBeDefined()
+    });
+    test('token object should be found in the rack in it\'s position...', () => {
+        const firstPlaced = tokens[0]
+        expect(firstPlaced.column).toEqual(tokenRed.column)
+        expect(firstPlaced.row).toEqual(tokenRed.row)
     });
 })
