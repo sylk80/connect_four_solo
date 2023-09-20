@@ -10,6 +10,10 @@ class ConnectFour {
         this.players.push(new Player('RED'))
         this.rack = new Rack();
     }
+
+    turn() {
+        return null
+    }
 }
 
 
