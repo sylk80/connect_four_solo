@@ -1,3 +1,5 @@
+const {Token} = require("./token");
+
 class Player {
 
     color = ''
@@ -7,7 +9,7 @@ class Player {
     }
 
     place() {
-        return { color : this.color}
+        return  new Token(this.color)
     }
 
 }
