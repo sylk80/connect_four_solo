@@ -1,10 +1,10 @@
 class Rack {
     columns = new Array(7)
     rows = new Array(6)
-    tokens = new Array(this.columns.length*this.rows.length)
+    tokens = []
 
-    place() {
-        return null
+    place(token) {
+        this.tokens.push(token)
     }
 }
 
