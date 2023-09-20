@@ -35,4 +35,16 @@ of four of one's own tokens
 
 :heavy_plus_sign: The rack should have seven columns :heavy_check_mark:
 
-:heavy_plus_sign: The rack should have six rows
+:heavy_plus_sign: The rack should have six rows :heavy_check_mark:
+
+### Unit tests
+
+:hammer_and_pick: Movements
+
+:heavy_plus_sign: players should place token
+
+:heavy_plus_sign: token should be player colored
+
+:heavy_plus_sign: token should be placed in rack
+
+:heavy_plus_sign: token should occupy lowest position

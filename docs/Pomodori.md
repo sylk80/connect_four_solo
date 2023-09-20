@@ -8,4 +8,8 @@ Start implementing basic test
 ### Pomodoro 2
 implementing boundaries test
 adding additional classes
-adding additional test classed
+adding additional test classes
+
+### Pomodoro 3
+implementing movement tests
+
