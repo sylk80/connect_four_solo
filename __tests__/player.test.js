@@ -22,12 +22,18 @@ describe('Player testing, there...', () => {
 
 describe('Player rules testing, ...', () => {
     const rack = new Rack();
-    const player = new Player('RED')
-    const token = player.place();
+    const playerRed = new Player('RED')
+    const tokenRed = playerRed.place();
     test('player can place in existing column...', () => {
-        expect(rack.columns.indexOf(token.column)).toBeGreaterThanOrEqual(0)
+        expect(rack.columns.indexOf(tokenRed.column)).toBeGreaterThanOrEqual(0)
     });
     test('player can place in existing rows...', () => {
-        expect(rack.rows.indexOf(token.row)).toBeGreaterThanOrEqual(0)
+        expect(rack.rows.indexOf(tokenRed.row)).toBeGreaterThanOrEqual(0)
+    });
+    test('player can\'t place in an occupied row...', () => {
+        rack.place(tokenRed)
+        const playerYellow = new Player('YELLOW')
+        const tokenYellow = playerYellow.place();
+        expect(tokenYellow.row).not.toEqual(tokenRed.row)
     });
 })

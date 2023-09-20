@@ -64,6 +64,6 @@ of four of one's own tokens
 
 :heavy_plus_sign: player can place in existing columns :heavy_check_mark:
 
-:heavy_plus_sign: player can place in existing rows
+:heavy_plus_sign: player can place in existing rows :heavy_check_mark:
 
 :heavy_plus_sign: player can't place to an occupied slot
