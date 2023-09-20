@@ -37,9 +37,13 @@ describe('Connect four testing, there...', () => {
     });
   });
 
+
 describe('Game rules testing, there...', () => {
+    const game = new ConnectFour()
     test('should be rounds...', () => {
-        const game = new ConnectFour()
         expect(game.rounds).toBeDefined();
+    });
+    test('player should place in turns...', () => {
+        expect(game.turn).toBeDefined();
     });
 })

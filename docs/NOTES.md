@@ -58,7 +58,7 @@ of four of one's own tokens
 
 :hammer_and_pick: Basic rules
 
-:heavy_plus_sign: there are rounds
+:heavy_plus_sign: there are rounds :heavy_check_mark:
 
 :heavy_plus_sign: one player places in one round
 
