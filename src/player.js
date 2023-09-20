@@ -6,6 +6,10 @@ class Player {
         this.color = color
     }
 
+    place() {
+        return null
+    }
+
 }
 
 module.exports = {Player}
