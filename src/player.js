@@ -9,7 +9,7 @@ class Player {
     }
 
     place() {
-        return  new Token(this.color)
+        return new Token(this.color)
     }
 
 }
