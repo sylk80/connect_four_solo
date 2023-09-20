@@ -40,10 +40,15 @@ describe('Connect four testing, there...', () => {
 
 describe('Game rules testing, there...', () => {
     const game = new ConnectFour()
+    game.turn()
+    const rounds = game.rounds
     test('should be rounds...', () => {
-        expect(game.rounds).toBeDefined();
+        expect(rounds).toBeDefined();
     });
     test('player should place in turns...', () => {
         expect(game.turn).toBeDefined();
+    });
+    test('rounds should be player turns of placing...', () => {
+        expect(rounds[0]).toBeDefined();
     });
 })
