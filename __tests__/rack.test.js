@@ -23,4 +23,8 @@ describe('Rack testing, there...', () => {
         expect(firstPlaced.column).toEqual(tokenRed.column)
         expect(firstPlaced.row).toEqual(tokenRed.row)
     });
+    test('token object should be found in the lowest position...', () => {
+        const firstPlaced = tokens[0]
+        expect(firstPlaced.row).toEqual(rack.rows[0])
+    });
 })

@@ -49,6 +49,6 @@ of four of one's own tokens
 
 :heavy_plus_sign: token should be placed in rack :heavy_check_mark:
 
-:heavy_plus_sign: token should be found in rack at it's position
+:heavy_plus_sign: token should be found in rack at it's position :heavy_check_mark:
 
 :heavy_plus_sign: token should occupy lowest position
