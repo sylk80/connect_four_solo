@@ -12,7 +12,7 @@ class ConnectFour {
     }
 
     turn() {
-        return null
+        this.rounds.push(this.players[0].place())
     }
 }
 
