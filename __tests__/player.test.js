@@ -27,4 +27,7 @@ describe('Player rules testing, ...', () => {
     test('player can place in existing column...', () => {
         expect(rack.columns.indexOf(token.column)).toBeGreaterThanOrEqual(0)
     });
+    test('player can place in existing rows...', () => {
+        expect(rack.rows.indexOf(token.row)).toBeGreaterThanOrEqual(0)
+    });
 })
