@@ -4,8 +4,9 @@ class Token {
     row = -1
 
 
-    constructor(color) {
+    constructor(color, column) {
         this.color = color
+        this.column = column
     }
 }
 

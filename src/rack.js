@@ -1,5 +1,5 @@
 class Rack {
-    columns = new Array(7)
+    columns = [1,2,3,4,5,6,7]
     rows = [1,2,3,4,5,6]
     tokens = []
 
