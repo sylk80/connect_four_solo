@@ -13,4 +13,9 @@ describe('Player testing, there...', () => {
         expect(token.color).toBeDefined();
     });
 
+    test('token should have coordinates...', () => {
+        expect(token.column).toBeDefined();
+        expect(token.row).toBeDefined();
+    });
+
 })

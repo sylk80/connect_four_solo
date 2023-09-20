@@ -41,9 +41,9 @@ of four of one's own tokens
 
 :hammer_and_pick: Movements
 
-:heavy_plus_sign: players should place token
+:heavy_plus_sign: players should place token :heavy_check_mark:
 
-:heavy_plus_sign: token should be player colored
+:heavy_plus_sign: token should be player colored :heavy_check_mark:
 
 :heavy_plus_sign: token should have coordinates
 
