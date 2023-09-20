@@ -6,7 +6,10 @@ class Rack {
     place(token) {
         token.row = this.rows[0]
         this.tokens.push(token)
+    }
 
+    lowestPosition() {
+        return this.rows[0]
     }
 }
 
