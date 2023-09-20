@@ -5,6 +5,7 @@ describe('Connect four testing, there...', () => {
     const players = game.players;
     const rack = game.rack;
     const columns = rack.columns
+    const rows = rack.rows
     test('should be a ConnectFour class...', () => {
       expect(game).toBeDefined();
     });
@@ -30,5 +31,8 @@ describe('Connect four testing, there...', () => {
     });
     test('should be a rack with 7 columns...', () => {
         expect(columns).toHaveLength(7);
+    });
+    test('should be a rack with 6 rows...', () => {
+        expect(rows).toHaveLength(6);
     });
   });
