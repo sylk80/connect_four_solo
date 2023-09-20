@@ -8,8 +8,9 @@ class Rack {
         this.tokens.push(token)
     }
 
-    lowestPosition() {
-        return this.rows[0]
+    lowestPosition(column) {
+        const elementsInColumn = this.tokens.filter((token) => token.column === column)
+        return this.rows[elementsInColumn]
     }
 }
 
