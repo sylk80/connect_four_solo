@@ -51,4 +51,19 @@ of four of one's own tokens
 
 :heavy_plus_sign: token should be found in rack at it's position :heavy_check_mark:
 
-:heavy_plus_sign: token should occupy lowest position
+:heavy_plus_sign: token should occupy lowest position :heavy_check_mark:
+
+
+### Unit tests
+
+:hammer_and_pick: Basic rules
+
+:heavy_plus_sign: there are rounds
+
+:heavy_plus_sign: one player places in one round
+
+:heavy_plus_sign: player can place in existing columns
+
+:heavy_plus_sign: player can place in existing rows
+
+:heavy_plus_sign: player can't place to an occupied slot

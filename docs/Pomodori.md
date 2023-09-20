@@ -13,3 +13,6 @@ adding additional test classes
 ### Pomodoro 3
 implementing movement tests
 
+
+### Pomodoro 4
+implementing basic game rules
