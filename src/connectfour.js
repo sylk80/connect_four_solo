@@ -3,6 +3,7 @@ const { Rack} = require('../src/rack.js');
 class ConnectFour {
     players = []
     rack = ''
+    rounds = []
 
     constructor() {
         this.players.push(new Player('YELLOW'))
