@@ -27,4 +27,7 @@ describe('Rack testing, there...', () => {
         const firstPlaced = tokens[0]
         expect(firstPlaced.row).toEqual(rack.rows[0])
     });
+    test('should search for lowest position...', () => {
+        expect(rack.lowestPosition).toBeDefined()
+    });
 })
