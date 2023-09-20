@@ -7,7 +7,7 @@ class Player {
     }
 
     place() {
-        return null
+        return { color : this.color}
     }
 
 }
