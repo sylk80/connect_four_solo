@@ -1,4 +1,5 @@
 const { Player} = require('../src/player');
+const {Rack} = require("../src/rack");
 
 describe('Player testing, there...', () => {
     const player = new Player('RED')
@@ -17,5 +18,13 @@ describe('Player testing, there...', () => {
         expect(token.column).toBeDefined();
         expect(token.row).toBeDefined();
     });
+})
 
+describe('Player rules testing, ...', () => {
+    const rack = new Rack();
+    const player = new Player('RED')
+    const token = player.place();
+    test('player can place in existing column...', () => {
+        expect(rack.columns.indexOf(token.column)).toBeGreaterThanOrEqual(0)
+    });
 })
