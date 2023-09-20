@@ -60,7 +60,7 @@ of four of one's own tokens
 
 :heavy_plus_sign: there are rounds :heavy_check_mark:
 
-:heavy_plus_sign: one player places in one round
+:heavy_plus_sign: one player places in one round 
 
 :heavy_plus_sign: player can place in existing columns
 

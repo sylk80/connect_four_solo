@@ -42,6 +42,7 @@ describe('Game rules testing, there...', () => {
     const game = new ConnectFour()
     game.turn()
     const rounds = game.rounds
+    const firstRound = rounds[0]
     test('should be rounds...', () => {
         expect(rounds).toBeDefined();
     });
@@ -49,6 +50,9 @@ describe('Game rules testing, there...', () => {
         expect(game.turn).toBeDefined();
     });
     test('rounds should be player turns of placing...', () => {
-        expect(rounds[0]).toBeDefined();
+        expect(firstRound).toBeDefined();
+    });
+    test('one player should place in one turn...', () => {
+        expect(firstRound.color).toEqual(game.players[0].color)
     });
 })
