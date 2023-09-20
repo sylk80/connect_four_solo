@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
+  <file path="/home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/__tests__/player.test.js">
+    <testCase name="Player testing, there... should be a Player..." duration="1"/>
+    <testCase name="Player testing, there... player should place a token..." duration="0"/>
+    <testCase name="Player testing, there... token should have same color..." duration="0"/>
+    <testCase name="Player testing, there... token should have coordinates..." duration="0"/>
+    <testCase name="Player rules testing, ... player can place in existing column..." duration="0"/>
+    <testCase name="Player rules testing, ... player can place in existing rows..." duration="1">
+      <failure message="Error: expect(received).toBeGreaterThanOrEqual(expected)"><![CDATA[Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+Expected: >= 0
+Received:    -1
+    at Object.<anonymous> (/home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/__tests__/player.test.js:31:46)
+    at Object.asyncJestTest (/home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)]]></failure>
+    </testCase>
+  </file>
   <file path="/home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/__tests__/connectfour.test.js">
     <testCase name="Connect four testing, there... should be a ConnectFour class..." duration="1"/>
-    <testCase name="Connect four testing, there... should be a ConnectFour class with players..." duration="4"/>
+    <testCase name="Connect four testing, there... should be a ConnectFour class with players..." duration="1"/>
     <testCase name="Connect four testing, there... should be two players..." duration="0"/>
-    <testCase name="Connect four testing, there... should be red player..." duration="1"/>
+    <testCase name="Connect four testing, there... should be red player..." duration="0"/>
     <testCase name="Connect four testing, there... should be yellow player..." duration="0"/>
-    <testCase name="Connect four testing, there... should be a rack..." duration="0"/>
+    <testCase name="Connect four testing, there... should be a rack..." duration="1"/>
     <testCase name="Connect four testing, there... should be a rack with columns..." duration="0"/>
     <testCase name="Connect four testing, there... should be a rack with 7 columns..." duration="0"/>
+    <testCase name="Connect four testing, there... should be a rack with 6 rows..." duration="0"/>
+    <testCase name="Game rules testing, there... should be rounds..." duration="0"/>
+    <testCase name="Game rules testing, there... player should place in turns..." duration="1"/>
+    <testCase name="Game rules testing, there... rounds should be player turns of placing..." duration="0"/>
+    <testCase name="Game rules testing, there... one player should place in one turn..." duration="0"/>
+  </file>
+  <file path="/home/sylk/IdeaProjects/xpfarm/20230830_connect_four_solo/__tests__/rack.test.js">
+    <testCase name="Rack testing, there... should be a Rack..." duration="1"/>
+    <testCase name="Rack testing, there... tokens are placed in the rack..." duration="0"/>
+    <testCase name="Rack testing, there... token object is placed in the rack..." duration="0"/>
+    <testCase name="Rack testing, there... token object should be found in the rack..." duration="1"/>
+    <testCase name="Rack testing, there... token object should be found in the rack in it&apos;s position..." duration="0"/>
+    <testCase name="Rack testing, there... token object should be found in the lowest position..." duration="0"/>
   </file>
 </testExecutions>
