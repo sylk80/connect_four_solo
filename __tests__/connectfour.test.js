@@ -36,3 +36,10 @@ describe('Connect four testing, there...', () => {
         expect(rows).toHaveLength(6);
     });
   });
+
+describe('Game rules testing, there...', () => {
+    test('should be rounds...', () => {
+        const game = new ConnectFour()
+        expect(game.rounds).toBeDefined();
+    });
+})
